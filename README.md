@@ -2,7 +2,7 @@
 
 This is Kathy, a PhD student in Computer Science.
 
-- 🧠 I am studying generative modeling for neuroimaging health.
+- 🧠 I am studying generative modeling for neuroimaging data.
 - 🤓 I am open to research discussions and potential collaborations, feel free to reach out to me.
 
 
