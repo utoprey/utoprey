@@ -1,4 +1,4 @@
-### Hi there! I am [Katherine Antipushina](https://github.com/utoprey)
+### Hi there! I am [Ekaterina Antipushina](https://github.com/utoprey)
 
 This is Kathy, a PhD student in Computer Science.
 
