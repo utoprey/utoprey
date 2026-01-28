@@ -6,15 +6,6 @@ This is Kathy, a PhD student in Computer Science.
 - 🤓 I am open to research discussions and potential collaborations, feel free to reach out to me.
 
 
-#### Languages and Tools
-
-![tex.png](https://raw.githubusercontent.com/HennyJie/HennyJie/master/assets/tex.png)
-![python.png](https://raw.githubusercontent.com/HennyJie/HennyJie/master/assets/python.png)
-![jupyter.png](https://raw.githubusercontent.com/HennyJie/HennyJie/master/assets/jupyter.png)
-![vscode.png](https://raw.githubusercontent.com/HennyJie/HennyJie/master/assets/vscode.png)
-![pytorch.png](https://raw.githubusercontent.com/HennyJie/HennyJie/master/assets/pytorch.png)
-![git.png](https://raw.githubusercontent.com/HennyJie/HennyJie/master/assets/git.png)
-
 
 #### My Github States
 
