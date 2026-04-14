@@ -1,28 +1,27 @@
 <h1 align="center">Hi, I'm Kathy 👋</h1>
 
 <p align="center">
-  PhD student in Computer Science &nbsp;·&nbsp; Generative modeling for neuroimaging &nbsp;·&nbsp; EEG & fMRI
+  <a href="https://www.linkedin.com/in/katherine-antipushina/">
+    <img src="https://img.shields.io/badge/LinkedIn--brightgreen?style=social&logo=LinkedIn" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:kantipushina@gmail.com">
+    <img src="https://img.shields.io/badge/kantipushina@gmail.com--brightgreen?style=social&logo=gmail" alt="Email"/>
+  </a>
 </p>
 
----
+<br>
 
-### About me
+> [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=PhD+student+in+CS;EEG+%26+fMRI+researcher;Generative+modeling+for+the+brain)](https://git.io/typing-svg)
+>
+> Working at the intersection of deep learning and neuroscience —
+> making brain signals tractable for machine learning models.
 
-I work at the intersection of deep learning and neuroscience — specifically on making brain signals more tractable for machine learning models.
+### I am:
 
-My current focus is **EEG tokenization**: building representations of EEG data that are agnostic to electrode montage, so one model can generalize across datasets and devices.
-
-- 🧠 &nbsp; Research: generative modeling for neuroimaging (EEG, fMRI)
+- 🧠 &nbsp; Studying generative modeling for neuroimaging (EEG, fMRI)
 - 🔬 &nbsp; Interested in self-supervised learning, discrete representations, cross-modal alignment
 - 🤝 &nbsp; Open to research discussions and collaborations
-
----
-
-### Current projects
-
-| Project | Description |
-|---|---|
-| [eeg_token](https://github.com/utoprey/eeg_token) | Montage-agnostic EEG tokenizer with spatial anchor pooling and BSQ quantization |
 
 ---
 
@@ -43,9 +42,3 @@ My current focus is **EEG tokenization**: building representations of EEG data t
   &nbsp;
   <img src="assets/tex.png" height="32" alt="LaTeX"/>
 </p>
-
----
-
-### GitHub stats
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=utoprey&layout=compact&theme=default&hide_border=true)
