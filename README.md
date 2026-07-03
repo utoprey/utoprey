@@ -2,10 +2,6 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:FFE8D6,50:F0E6FF,100:D4F1F4&text=hello%20there%20%E2%9C%A8&fontColor=4A4A4A&fontSize=54&fontAlignY=45" alt="header">
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=1000&color=C8A8E9&center=true&vCenter=true&width=560&height=55&repeat=false&lines=teaching+machines+to+read+the+brain+%E2%9C%A8">
-</p>
-
-<p align="center">
   <a href="https://utoprey.github.io"><img src="https://img.shields.io/badge/portfolio-C8A8E9?style=for-the-badge&logo=safari&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/katherine-antipushina/"><img src="https://img.shields.io/badge/linkedin-7AC3CC?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://orcid.org/0009-0009-9708-440X"><img src="https://img.shields.io/badge/orcid-9FB8A3?style=for-the-badge&logo=orcid&logoColor=white"></a>
@@ -14,7 +10,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=22&pause=1200&color=7AC3CC&center=true&vCenter=true&width=520&lines=PhD+student+in+CS;EEG+%26+fMRI+researcher;Generative+modeling+for+the+brain">
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=22&pause=1200&color=7AC3CC&center=true&vCenter=true&width=520&lines=EEG+%26+fMRI+researcher;Generative+modeling+for+the+brain">
   </a>
 </p>
 
