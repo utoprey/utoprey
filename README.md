@@ -63,9 +63,9 @@ Working at the intersection of **deep learning** and **neuroscience** — making
 ---
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=utoprey&show_icons=true&hide_border=true&count_private=true&title_color=7AC3CC&text_color=6B6B6B&icon_color=C8A8E9&bg_color=FFF8F0">
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=utoprey&show_icons=true&hide_border=true&count_private=true&title_color=7AC3CC&text_color=6B6B6B&icon_color=C8A8E9&bg_color=FFF8F0">
   &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=utoprey&layout=compact&hide_border=true&langs_count=8&title_color=7AC3CC&text_color=6B6B6B&bg_color=FFF8F0">
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=utoprey&layout=compact&hide_border=true&langs_count=8&title_color=7AC3CC&text_color=6B6B6B&bg_color=FFF8F0">
 </p>
 
 <p align="center">
