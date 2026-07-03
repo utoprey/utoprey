@@ -1,5 +1,5 @@
 <!-- soft cream header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:FFE8D6,50:F0E6FF,100:D4F1F4&text=hello%20there%20%E2%9C%A8&fontColor=4A4A4A&fontSize=54&fontAlignY=38&desc=ML%20%C2%B7%20GenAI%20%C2%B7%20Neuroimaging%20researcher&descSize=18&descAlignY=60&descColor=6B6B6B" alt="header">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:FFE8D6,50:F0E6FF,100:D4F1F4&text=hello%20there%20%E2%9C%A8&fontColor=4A4A4A&fontSize=54&fontAlignY=45" alt="header">
 
 <p align="center">
   <a href="https://utoprey.github.io"><img src="https://img.shields.io/badge/portfolio-C8A8E9?style=for-the-badge&logo=safari&logoColor=white"></a>
@@ -24,7 +24,6 @@
 
 Working at the intersection of **deep learning** and **neuroscience** — making brain signals tractable for machine learning models.
 
-- 🧠 &nbsp; Generative modeling for neuroimaging *(EEG, fMRI)*
 - 🔬 &nbsp; Self-supervised learning, discrete representations, cross-modal alignment
 - 🌿 &nbsp; Interpretability & shortcut-learning audits of neural foundation models
 - ☕ &nbsp; Coffee chats & research collabs always welcome
