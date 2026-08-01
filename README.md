@@ -8,7 +8,7 @@
 
 **`Spark()`** — _selected work_
 
-- **[Multimodal-neuroimaging-fusion-models](https://github.com/utoprey/Multimodal-neuroimaging-fusion-models)** — fMRI + sMRI + lipidomics → schizophrenia biomarkers
+- **[Multimodal-neuroimaging-fusion-models](https://github.com/utoprey/Multimodal-neuroimaging-fusion-models)** — schizophrenia biomarkers prediction
 - **[Rest2Task](https://github.com/utoprey/Rest2Task)** — task activation from resting-state fMRI
 - **[CogniNet](https://github.com/utoprey/CogniNet)** — graph-based modeling of cognitive states
 - **[neuroforum](https://github.com/utoprey/neuroforum)** — a forum for computational neuroimaging
