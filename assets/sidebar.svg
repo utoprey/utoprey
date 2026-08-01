@@ -31,13 +31,13 @@
     <style>
       @keyframes hum { 0%,100% { opacity:.35 } 50% { opacity:.95 } }
       @keyframes breathe { 0%,100% { transform:scale(1) } 50% { transform:scale(1.025) } }
-      @keyframes pulse { 0%,100% { opacity:.5; r:3 } 50% { opacity:1; r:5 } }
+      @keyframes pulse { 0%,100% { opacity:.5 } 50% { opacity:1 } }
       @keyframes draw { to { stroke-dashoffset:0 } }
-      @keyframes blink { 0%,100% { opacity:.9 } 50% { opacity:.3 } }
-      .humlayer { animation: hum 3.4s ease-in-out infinite; transform-origin:172px 210px; }
-      .sword    { animation: breathe 3.4s ease-in-out infinite; transform-origin:172px 210px; }
+      @keyframes blink { 0%,100% { opacity:.9 } 50% { opacity:.35 } }
+      .humlayer { animation: hum 3.4s ease-in-out infinite; transform-origin:150px 205px; }
+      .sword    { animation: breathe 3.4s ease-in-out infinite; transform-origin:150px 205px; }
       .core     { animation: pulse 2.2s ease-in-out infinite; }
-      .sig      { stroke-dasharray:640; stroke-dashoffset:640; animation: draw 2.6s ease-out .4s forwards; }
+      .sig      { stroke-dasharray:720; stroke-dashoffset:720; animation: draw 2.8s ease-out .4s forwards; }
       .paren    { animation: hum 3.4s ease-in-out infinite; }
       .prong    { animation: blink 2.8s ease-in-out infinite; }
     </style>
@@ -55,50 +55,50 @@
     <path d="M286,416 Q286,446 256,446 M277,424 Q272,437 258,438"/>
   </g>
 
-  <!-- () hum glyph -->
-  <g class="paren" fill="none" stroke="#7fe3ff" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
-    <path d="M150,30 Q142,40 150,50"/>
-    <path d="M170,30 Q178,40 170,50"/>
+  <!-- () hum glyph, centered above blade -->
+  <g class="paren" fill="none" stroke="#7fe3ff" stroke-width="2" stroke-linecap="round" filter="url(#glow)" transform="translate(0,2)">
+    <path d="M142,26 Q134,38 142,50"/>
+    <path d="M158,26 Q166,38 158,50"/>
   </g>
 
   <!-- vertical brain-signal trace = the hum -->
-  <path class="sig" filter="url(#glow)" fill="none" stroke="#33ddff" stroke-width="1.4" opacity="0.65"
-        d="M72,70 L72,150 L60,168 L84,186 L66,206 L72,222 L72,300 L60,318 L84,338 L68,356 L72,372 L72,408"/>
+  <path class="sig" filter="url(#glow)" fill="none" stroke="#33ddff" stroke-width="1.4" opacity="0.6"
+        d="M74,64 L74,150 L64,166 L84,182 L64,198 L74,214 L74,300 L64,316 L84,332 L64,348 L74,364 L74,404"/>
   <circle r="2.6" fill="#d7fbff" filter="url(#glow)">
     <animateMotion dur="5.5s" repeatCount="indefinite" calcMode="linear"
-      path="M72,70 L72,150 L60,168 L84,186 L66,206 L72,222 L72,300 L60,318 L84,338 L68,356 L72,372 L72,408"/>
+      path="M74,64 L74,150 L64,166 L84,182 L64,198 L74,214 L74,300 L64,316 L84,332 L64,348 L74,364 L74,404"/>
   </circle>
 
-  <!-- THE TRANSISTOR (flat tech-blade, angled tip, plug base) -->
+  <!-- THE TRANSISTOR: straight parallel edges, angled chisel tip, plug base -->
   <g>
-    <rect class="humlayer" x="150" y="60" width="44" height="300" rx="10" fill="#33ddff" filter="url(#softglow)"/>
+    <rect class="humlayer" x="126" y="54" width="48" height="300" rx="10" fill="#33ddff" filter="url(#softglow)"/>
     <g class="sword">
-      <!-- blade with signature slanted chisel tip -->
-      <path d="M156,88 L176,40 L200,74 L198,352 L162,352 L154,180 Z" fill="url(#blade)" filter="url(#glow)"/>
-      <!-- cyan glowing edge -->
-      <path d="M176,40 L200,74 L198,352" fill="none" stroke="#d7fbff" stroke-width="1.6" opacity="0.85"/>
-      <!-- fuller / center circuit line -->
-      <line x1="176" y1="60" x2="180" y2="346" stroke="#fff4e0" stroke-width="1" opacity="0.7"/>
+      <!-- blade -->
+      <path d="M130,96 L170,48 L170,352 L130,352 Z" fill="url(#blade)" filter="url(#glow)"/>
+      <!-- glowing cutting edge (slanted tip + right edge) -->
+      <path d="M130,96 L170,48 L170,352" fill="none" stroke="#eafcff" stroke-width="1.6" opacity="0.9"/>
+      <!-- center fuller -->
+      <line x1="150" y1="70" x2="150" y2="346" stroke="#fff4e0" stroke-width="1" opacity="0.65"/>
       <!-- circuit nodes -->
       <g stroke="#33ddff" stroke-width="1.3" opacity="0.85">
-        <line x1="164" y1="130" x2="192" y2="130"/>
-        <line x1="164" y1="200" x2="192" y2="200"/>
-        <line x1="164" y1="268" x2="192" y2="268"/>
+        <line x1="137" y1="150" x2="163" y2="150"/>
+        <line x1="137" y1="210" x2="163" y2="210"/>
+        <line x1="137" y1="270" x2="163" y2="270"/>
       </g>
       <!-- glowing core -->
-      <circle class="core" cx="178" cy="300" r="4" fill="#eafcff" filter="url(#glow)"/>
-      <rect x="164" y="292" width="28" height="16" rx="3" fill="none" stroke="#e6bf6a" stroke-width="1.2" opacity="0.8"/>
+      <rect x="136" y="300" width="28" height="16" rx="3" fill="none" stroke="#e6bf6a" stroke-width="1.2" opacity="0.85"/>
+      <circle class="core" cx="150" cy="308" r="4" fill="#eafcff" filter="url(#glow)"/>
     </g>
-    <!-- plug / connector base (plugs into terminals) -->
+    <!-- plug / connector base -->
     <g filter="url(#glow)">
-      <rect x="150" y="352" width="56" height="34" rx="4" fill="url(#plug)" stroke="#e6bf6a" stroke-width="1.2"/>
-      <line x1="160" y1="360" x2="196" y2="360" stroke="#33ddff" stroke-width="1" opacity="0.6"/>
-      <line x1="160" y1="368" x2="196" y2="368" stroke="#33ddff" stroke-width="1" opacity="0.4"/>
+      <rect x="122" y="352" width="56" height="34" rx="4" fill="url(#plug)" stroke="#e6bf6a" stroke-width="1.2"/>
+      <line x1="132" y1="360" x2="168" y2="360" stroke="#33ddff" stroke-width="1" opacity="0.6"/>
+      <line x1="132" y1="368" x2="168" y2="368" stroke="#33ddff" stroke-width="1" opacity="0.4"/>
       <g class="prong" fill="#c9962f">
-        <rect x="158" y="386" width="6" height="12" rx="1"/>
-        <rect x="171" y="386" width="6" height="12" rx="1"/>
-        <rect x="184" y="386" width="6" height="12" rx="1"/>
-        <rect x="197" y="386" width="6" height="12" rx="1"/>
+        <rect x="130" y="386" width="6" height="12" rx="1"/>
+        <rect x="143" y="386" width="6" height="12" rx="1"/>
+        <rect x="156" y="386" width="6" height="12" rx="1"/>
+        <rect x="169" y="386" width="6" height="12" rx="1"/>
       </g>
     </g>
   </g>
