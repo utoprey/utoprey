@@ -1,8 +1,13 @@
-## katherine antipushina
+<p align="center">
+  <img src="https://raw.githubusercontent.com/utoprey/utoprey/master/assets/banner.svg" width="100%" alt="Katherine Antipushina — AI for Neuroscience & Embodied AI Researcher">
+</p>
 
-AI for Neuroscience & Embodied AI Researcher
-
-[portfolio](https://utoprey.github.io) · [linkedin](https://www.linkedin.com/in/katherine-antipushina/) · [orcid](https://orcid.org/0009-0009-9708-440X) · [email](mailto:kantipushina@gmail.com)
+<p align="center">
+  <a href="https://utoprey.github.io">portfolio</a> ·
+  <a href="https://www.linkedin.com/in/katherine-antipushina/">linkedin</a> ·
+  <a href="https://orcid.org/0009-0009-9708-440X">orcid</a> ·
+  <a href="mailto:kantipushina@gmail.com">email</a>
+</p>
 
 ---
 
