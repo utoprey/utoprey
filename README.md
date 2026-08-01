@@ -1,6 +1,6 @@
 ## katherine antipushina
 
-EEG × fMRI · generative models for the brain
+AI for Neuroscience & Embodied AI Researcher
 
 [portfolio](https://utoprey.github.io) · [linkedin](https://www.linkedin.com/in/katherine-antipushina/) · [orcid](https://orcid.org/0009-0009-9708-440X) · [email](mailto:kantipushina@gmail.com)
 
