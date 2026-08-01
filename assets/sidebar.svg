@@ -55,12 +55,6 @@
     <path d="M286,416 Q286,446 256,446 M277,424 Q272,437 258,438"/>
   </g>
 
-  <!-- () hum glyph, centered above blade -->
-  <g class="paren" fill="none" stroke="#7fe3ff" stroke-width="2" stroke-linecap="round" filter="url(#glow)" transform="translate(0,2)">
-    <path d="M142,26 Q134,38 142,50"/>
-    <path d="M158,26 Q166,38 158,50"/>
-  </g>
-
   <!-- vertical brain-signal trace = the hum -->
   <path class="sig" filter="url(#glow)" fill="none" stroke="#33ddff" stroke-width="1.4" opacity="0.6"
         d="M74,64 L74,150 L64,166 L84,182 L64,198 L74,214 L74,300 L64,316 L84,332 L64,348 L74,364 L74,404"/>
